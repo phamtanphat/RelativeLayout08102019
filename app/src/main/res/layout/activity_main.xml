@@ -33,6 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <Button
+        android:id="@+id/buttonView6"
         android:layout_toLeftOf="@id/buttonView5"
         android:layout_above="@id/buttonView5"
         android:text="View 6"
@@ -54,6 +55,11 @@
         android:layout_toRightOf="@id/buttonView5"
         android:layout_below="@id/buttonView5"
         android:text="View 9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_alignLeft="@id/buttonView6"
+        android:text="View 10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
