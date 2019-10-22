@@ -6,18 +6,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
     <Button
         android:text="View 1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-
     <Button
         android:layout_alignParentRight="true"
         android:text="View 2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-
     <Button
         android:layout_alignParentBottom="true"
         android:text="View 3"
@@ -29,5 +26,31 @@
         android:text="View 4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-
+    <Button
+        android:layout_centerHorizontal="true"
+        android:text="View 5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="View 6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="View 7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_centerVertical="true"
+        android:text="View 8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_centerInParent="true"
+        android:text="View 9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 </RelativeLayout>
