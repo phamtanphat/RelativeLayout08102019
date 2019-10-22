@@ -27,30 +27,34 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <Button
-        android:layout_centerHorizontal="true"
+        android:id="@+id/buttonView5"
+        android:layout_centerInParent="true"
         android:text="View 5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <Button
-        android:layout_alignParentRight="true"
-        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/buttonView5"
+        android:layout_above="@id/buttonView5"
         android:text="View 6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <Button
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@id/buttonView5"
+        android:layout_above="@id/buttonView5"
         android:text="View 7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <Button
-        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/buttonView5"
+        android:layout_below="@id/buttonView5"
         android:text="View 8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <Button
-        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/buttonView5"
+        android:layout_below="@id/buttonView5"
         android:text="View 9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+
 </RelativeLayout>
