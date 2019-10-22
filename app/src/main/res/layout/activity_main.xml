@@ -5,19 +5,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     tools:context=".MainActivity">
-    <Button
-        android:layout_toLeftOf="@id/buttonView2"
-        android:layout_alignParentLeft="true"
-        android:text="View 1"
+    <TextView
+        android:id="@+id/buttonRed"
+        android:textColor="#ffff"
+        android:background="#f20"
+        android:text="Red"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-    <Button
-        android:id="@+id/buttonView2"
-        android:layout_alignParentRight="true"
-        android:text="View 2"
+    <TextView
+        android:layout_below="@+id/buttonRed"
+        android:id="@+id/buttonGreen"
+        android:textColor="#ffff"
+        android:background="#8BC34A"
+        android:text="Green"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-
-
+    <TextView
+        android:layout_below="@+id/buttonGreen"
+        android:id="@+id/buttonBlue"
+        android:textColor="#ffff"
+        android:background="#03A9F4"
+        android:text="Blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_below="@+id/buttonBlue"
+        android:id="@+id/buttonOrange"
+        android:textColor="#ffff"
+        android:background="#FF9800"
+        android:text="Orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_below="@+id/buttonOrange"
+        android:id="@+id/buttonGray"
+        android:textColor="#ffff"
+        android:background="#979797"
+        android:text="Gray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_below="@+id/buttonGray"
+        android:id="@+id/buttonPink"
+        android:textColor="#ffff"
+        android:background="#E91E63"
+        android:text="Pink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 </RelativeLayout>
